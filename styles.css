@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+:root {
+  --navbar-color: #303030;
+  --body-color: #202020;
+  --haste: #2565A4;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: var(--body-color)
+}
+
+.main-page-container {
+  
+ 
+  height: 190%;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.navbar-main {
+  background: var(--navbar-color);
+  top: 0;
+  left: 0;
+  display:flex;
+  height: 70px;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.navbar-element, .navbar-element-leftmost{
+  font-size: 25px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background: none;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.navbar-element-leftmost {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+.navbar-element:hover {
+  color: var(--haste);
+}
+.main-pfp {
+  width: 250px;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  margin-top: 300px;
+}
+.micro {
+  width: 40px;
+}
+.standard-blue-btn {
+  font-family: 'Open Sans', sans-serif;
+  padding: 12px;
+  border: 3px solid var(--haste);
+  border-radius: 10px;
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-weight:700;
+  transition: 0.3s;
+}
+.learn-more {
+  font-family: 'Open Sans', sans-serif;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  color: gray;
+  font-size: 20px;
+  font-weight:700;
+  
+}
+.learn-more:hover {
+  color: ghostwhite;
+}
+.normal-text {
+  font-size: 20px;
+  font-weight: 200;
+}
+.bold-title {
+  margin-left: 100px;
+}
+.standard-blue-btn:hover {
+  background: var(--haste);
+  color: black;
+}
+.text-image-box, .text-image-box-top {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+}
+.text-image-box-top {
+  margin-top: 800px;
+}
+.both-text-img-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  justify-content: space-evenly;
+
+  align-items: center;
+  
+}
+.rounded-img {
+  border-radius: 20px;
+  transition: 0.2s;
+  width: 400px;
+}
+.bold-title-2 {
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+}
+.desc-imgbox {
+  color: white;
+  font-weight: 300;
+
+}
+.rounded-img:hover {
+  transform: scale(1.3);
+  
+}
